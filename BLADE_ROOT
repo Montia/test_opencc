@@ -1,0 +1,30 @@
+#cc_test_config(
+#    dynamic_link=True,
+#    heap_check='strict',
+#    gperftools_libs='Common/ThirdParty/perftools:tcmalloc',
+#    gtest_libs='Common/ThirdParty/gtest:gtest',
+#    gtest_main_libs='Common/ThirdParty/gtest:gtest_main',
+#	pprof_path='Common/ThirdParty/perftools/bin/pprof',
+#)
+#
+#proto_library_config(
+#    protoc='Common/ThirdParty/protobuf/bin/protoc',
+#    protobuf_libs='Common/ThirdParty/protobuf:protobuf',
+#    protobuf_path='Common/ThirdParty',
+#    protobuf_include_path='Common/ThirdParty',
+#)
+#
+#thrift_library_config(
+#    thrift='Common/ThirdParty/thrift/bin/thrift',
+#    thrift_libs=['Common/ThirdParty/thrift:thrift', '#pthread'],
+#    thrift_incs=[],
+#)
+
+cc_config(
+    extra_incs=['opencc/src']
+)
+
+#java_config(
+#    source_version='1.6',
+#    target_version='1.6'
+#)

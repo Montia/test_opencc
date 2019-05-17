@@ -1,0 +1,13 @@
+mkdir -p build/rel
+(cd build/rel; cmake \
+-DBUILD_DOCUMENTATION:BOOL=ON \
+-DENABLE_GTEST:BOOL=OFF \
+-DCMAKE_BUILD_TYPE=Release \
+-DCMAKE_INSTALL_PREFIX=/usr \
+../..)
+-- The CXX compiler identification is GNU 4.8.5
+-- Check for working CXX compiler: /bin/c++
+-- Check for working CXX compiler: /bin/c++ -- broken
+-- Configuring incomplete, errors occurred!
+See also "/root/desktop/OpenCC-master/build/rel/CMakeFiles/CMakeOutput.log".
+See also "/root/desktop/OpenCC-master/build/rel/CMakeFiles/CMakeError.log".

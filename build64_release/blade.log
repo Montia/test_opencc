@@ -11,4 +11,4 @@ Blade(warning): Unsupported C/C++ flags: -Werror=format-nonliteral
 Blade(info): generating done.
 Blade(info): tunes the parallel jobs number(-j N) to be 8
 Blade(info): success
-Blade(info): cost time is 0:00:02s
+Blade(info): cost time is 0:00:01s

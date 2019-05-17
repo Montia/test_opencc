@@ -3,3 +3,9 @@ cc_library(
     export_incs = ['src'],
     prebuilt = True,
 )
+
+cc_library(
+    name = 'opencc.2',
+    export_incs = ['src'],
+    prebuilt = True,
+)

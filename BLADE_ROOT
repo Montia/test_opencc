@@ -21,7 +21,7 @@
 #)
 
 cc_config(
-    extra_incs=['opencc/src']
+    #extra_incs=['opencc/src']
 )
 
 #java_config(
